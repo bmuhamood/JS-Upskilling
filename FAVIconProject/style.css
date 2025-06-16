@@ -1,0 +1,23 @@
+/* Style the list */
+.item-list {
+  list-style: none;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+/* Style the heart button */
+.favorite-icon {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #666;
+  margin-left: 10px;
+}
+
+/* Filled heart style */
+.filled {
+  color: red;
+  transform: scale(1.2);
+  transition: transform 0.2s ease;
+}
